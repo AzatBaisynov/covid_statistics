@@ -1,0 +1,8 @@
+org\example\controller\BotButtons.class
+org\example\controller\Bot.class
+org\example\controller\BotUpdate.class
+org\example\dao\Changer.class
+org\example\Main.class
+org\example\dao\HtmlReader.class
+org\example\bl\FileWriterLogs.class
+org\example\repo\Article.class
