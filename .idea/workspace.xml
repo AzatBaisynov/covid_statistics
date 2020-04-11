@@ -3,6 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="d3cc9064-40ec-455c-a223-c3d7f1258b4c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/controller/Bot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/controller/Bot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/dao/Changer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/dao/Changer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/controller/Bot.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/controller/Bot.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/dao/Changer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/dao/Changer.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,6 +49,26 @@
       <recent name="C:\Users\Азат\IdeaProjects\hibernateORM\hibernateORM\hibernateORM\Covid_statistics\src\main\resources" />
     </key>
   </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.Main" />
+      <module name="Covid_statistics" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -55,7 +79,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1586568243389</updated>
-      <workItem from="1586568246779" duration="526000" />
+      <workItem from="1586568246779" duration="1986000" />
     </task>
     <servers />
   </component>
@@ -63,21 +87,21 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1307" height="279" key="GridCell.Tab.0.bottom" timestamp="1586568559719">
+    <state width="1443" height="279" key="GridCell.Tab.0.bottom" timestamp="1586570859346">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1307" height="279" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1586568559719" />
-    <state width="1307" height="279" key="GridCell.Tab.0.center" timestamp="1586568559719">
+    <state width="1443" height="279" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1586570859346" />
+    <state width="1443" height="279" key="GridCell.Tab.0.center" timestamp="1586570859346">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1307" height="279" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1586568559719" />
-    <state width="1307" height="279" key="GridCell.Tab.0.left" timestamp="1586568559719">
+    <state width="1443" height="279" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1586570859346" />
+    <state width="1443" height="279" key="GridCell.Tab.0.left" timestamp="1586570859346">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1307" height="279" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1586568559719" />
-    <state width="1307" height="279" key="GridCell.Tab.0.right" timestamp="1586568559719">
+    <state width="1443" height="279" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1586570859346" />
+    <state width="1443" height="279" key="GridCell.Tab.0.right" timestamp="1586570859346">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1307" height="279" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1586568559719" />
+    <state width="1443" height="279" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1586570859346" />
   </component>
 </project>

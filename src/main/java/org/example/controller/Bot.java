@@ -24,6 +24,7 @@ public class Bot extends TelegramLongPollingBot {
         sendMessage.setChatId(message.getChatId().toString());
         sendMessage.setText(text);
         SendPhoto msg = new SendPhoto().setPhoto("место для Вашей рекламы!", new FileInputStream(new File("classes/reklama.jpg")));
+//        SendPhoto msg = new SendPhoto().setPhoto("место для Вашей рекламы!", new FileInputStream(new File("src/main/resources/reklama.jpg")));
         msg.setChatId(message.getChatId().toString());
         try {
             execute(msg);
