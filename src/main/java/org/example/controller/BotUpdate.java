@@ -25,35 +25,36 @@ public class BotUpdate {
             Message message1 = callbackQuery.getMessage();
             switch (data) {
                 case "/top10" :
-                    bot.sendMsgNoReplyNoButton(message1, "Вывожу статистику:");
+                    bot.sendMsgWithAdv(message1, "Вывожу статистику:");
                     List<Article> list = HtmlReader.getOfficialTable();
+
                     for(int i = 0; i < 10; i++) {
                         bot.sendMsgNoReplyNoButtonTop10(message1,list.get(i).toString());
                     }
                     bot.sendMsgNoReply(message1, "\u2063                                Меню                 \u2063");
                     break;
                 case "/kyrgyzstan" :
-                    bot.sendMsgNoReplyNoButton(message1, "Статистика по Кыргызстану:");
+                    bot.sendMsgWithAdv(message1, "Статистика по Кыргызстану:");
                     bot.sendMsgNoReply(message1, HtmlReader.getCountryOfficialTable("Kyrgyzstan", "Asia").toString());
                     break;
                 case "/russia" :
-                    bot.sendMsgNoReplyNoButton(message1, "Статистика по России:");
+                    bot.sendMsgWithAdv(message1, "Статистика по России:");
                     bot.sendMsgNoReply(message1, HtmlReader.getCountryOfficialTable("Russia", "Europe").toString());
                     break;
                 case "/kazakhstan" :
-                    bot.sendMsgNoReplyNoButton(message1, "Статистика по Казахстану:");
+                    bot.sendMsgWithAdv(message1, "Статистика по Казахстану:");
                     bot.sendMsgNoReply(message1, HtmlReader.getCountryOfficialTable("Kazakhstan", "Asia").toString());
                     break;
                 case "/uzbekistan" :
-                    bot.sendMsgNoReplyNoButton(message1, "Статистика по Узбекистану:");
+                    bot.sendMsgWithAdv(message1, "Статистика по Узбекистану:");
                     bot.sendMsgNoReply(message1, HtmlReader.getCountryOfficialTable("Uzbekistan", "Asia").toString());
                     break;
                 case "/china" :
-                    bot.sendMsgNoReplyNoButton(message1, "Статистика по Китаю:");
+                    bot.sendMsgWithAdv(message1, "Статистика по Китаю:");
                     bot.sendMsgNoReply(message1, HtmlReader.getCountryOfficialTable("China", "Asia").toString());
                     break;
                 case "/turkey" :
-                    bot.sendMsgNoReplyNoButton(message1, "Статистика по Турции:");
+                    bot.sendMsgWithAdv(message1, "Статистика по Турции:");
                     bot.sendMsgNoReply(message1, HtmlReader.getCountryOfficialTable("Turkey", "Asia").toString());
                     break;
             }

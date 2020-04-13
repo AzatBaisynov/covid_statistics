@@ -6,6 +6,7 @@ import org.telegram.telegrambots.meta.api.methods.send.SendPhoto;
 import org.telegram.telegrambots.meta.api.objects.Message;
 import org.telegram.telegrambots.meta.api.objects.Update;
 import org.telegram.telegrambots.meta.exceptions.TelegramApiException;
+import org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException;
 
 //import java.util.List;
 
@@ -18,14 +19,16 @@ import static org.example.controller.BotUpdate.runUpdate;
 
 public class Bot extends TelegramLongPollingBot {
 
-    public void sendMsgNoReplyNoButton(Message message, String text) throws FileNotFoundException {
+    public void sendMsgWithAdv(Message message, String text) throws FileNotFoundException {
         SendMessage sendMessage = new SendMessage();
         sendMessage.enableMarkdown(true);
         sendMessage.setChatId(message.getChatId().toString());
         sendMessage.setText(text);
-        SendPhoto msg = new SendPhoto().setPhoto("место для Вашей рекламы!", new FileInputStream(new File("classes/reklama.jpg")));
-//        SendPhoto msg = new SendPhoto().setPhoto("место для Вашей рекламы!", new FileInputStream(new File("src/main/resources/reklama.jpg")));
+        sendMessage.notifyAll();
+        SendPhoto msg = new SendPhoto().setPhoto("место для Вашей рекламы!", new FileInputStream(new File("classes/stayhome.jpg")));
+//        SendPhoto msg = new SendPhoto().setPhoto("место для Вашей рекламы!", new FileInputStream(new File("src/main/resources/stayhome.png")));
         msg.setChatId(message.getChatId().toString());
+
         try {
             execute(msg);
             execute(sendMessage);

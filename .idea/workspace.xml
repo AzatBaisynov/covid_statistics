@@ -2,11 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d3cc9064-40ec-455c-a223-c3d7f1258b4c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/stayhome.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/controller/Bot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/controller/Bot.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/dao/Changer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/dao/Changer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/controller/BotUpdate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/controller/BotUpdate.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/org/example/controller/Bot.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/controller/Bot.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/dao/Changer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/dao/Changer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/controller/BotUpdate.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/controller/BotUpdate.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,6 +46,9 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Азат\IdeaProjects\hibernateORM\hibernateORM\hibernateORM\Covid_statistics\src\main\resources" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Азат\IdeaProjects\hibernateORM\hibernateORM\hibernateORM\Covid_statistics\src\main\resources" />
     </key>
@@ -79,7 +83,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1586568243389</updated>
-      <workItem from="1586568246779" duration="1986000" />
+      <workItem from="1586568246779" duration="2376000" />
+      <workItem from="1586725403088" duration="8110000" />
     </task>
     <servers />
   </component>
@@ -87,21 +92,25 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1443" height="279" key="GridCell.Tab.0.bottom" timestamp="1586570859346">
+    <state width="1877" height="281" key="GridCell.Tab.0.bottom" timestamp="1586782214548">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1443" height="279" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1586570859346" />
-    <state width="1443" height="279" key="GridCell.Tab.0.center" timestamp="1586570859346">
+    <state width="1877" height="281" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1586782214548" />
+    <state width="1877" height="281" key="GridCell.Tab.0.center" timestamp="1586782214548">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1443" height="279" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1586570859346" />
-    <state width="1443" height="279" key="GridCell.Tab.0.left" timestamp="1586570859346">
+    <state width="1877" height="281" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1586782214548" />
+    <state width="1877" height="281" key="GridCell.Tab.0.left" timestamp="1586782214548">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1443" height="279" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1586570859346" />
-    <state width="1443" height="279" key="GridCell.Tab.0.right" timestamp="1586570859346">
+    <state width="1877" height="281" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1586782214548" />
+    <state width="1877" height="281" key="GridCell.Tab.0.right" timestamp="1586782214548">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1443" height="279" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1586570859346" />
+    <state width="1877" height="281" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1586782214548" />
+    <state x="657" y="345" key="com.intellij.ide.util.TipDialog" timestamp="1586725415818">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="657" y="345" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1586725415818" />
   </component>
 </project>
