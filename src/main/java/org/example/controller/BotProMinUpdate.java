@@ -16,7 +16,7 @@ public class BotProMinUpdate {
 
         if(message != null && message.hasText()) {
             switch (message.getText()) {
-                case "/roll":
+                case "!roll":
                     bot.sendMsg(message, rd.nextInt(100-1)+1 + "");
                     break;
             }
