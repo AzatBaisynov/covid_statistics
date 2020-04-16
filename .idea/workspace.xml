@@ -7,8 +7,19 @@
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/controller/BotProMin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/controller/BotProMin.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/controller/BotProMinUpdate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/controller/BotProMinUpdate.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/Covid_statistics-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/controller/BotProMin.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/controller/BotProMin.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/controller/BotProMinUpdate.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/controller/BotProMinUpdate.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/adv.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ani.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/bl/FileWriterLogs.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/controller/Bot.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/controller/BotButtons.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/controller/BotProMin.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/controller/BotProMinUpdate.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/controller/BotUpdate.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/dao/Changer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/dao/HtmlReader.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/repo/Article.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/reklama.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/lib/animal-sniffer-annotations-1.18.jar" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/lib/aopalliance-1.0.jar" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/lib/aopalliance-repackaged-2.6.1.jar" beforeDir="false" />
@@ -162,7 +173,7 @@
       <workItem from="1586725403088" duration="11676000" />
       <workItem from="1586821784053" duration="2144000" />
       <workItem from="1586895593069" duration="9163000" />
-      <workItem from="1587046168076" duration="5266000" />
+      <workItem from="1587046168076" duration="5581000" />
     </task>
     <servers />
   </component>
@@ -174,22 +185,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="569" y="233" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1587047381506" />
-    <state width="1475" height="292" key="GridCell.Tab.0.bottom" timestamp="1587051684108">
+    <state width="1209" height="292" key="GridCell.Tab.0.bottom" timestamp="1587052132343">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1475" height="292" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1587051684108" />
-    <state width="1475" height="292" key="GridCell.Tab.0.center" timestamp="1587051684108">
+    <state width="1209" height="292" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1587052132343" />
+    <state width="1209" height="292" key="GridCell.Tab.0.center" timestamp="1587052132343">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1475" height="292" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1587051684108" />
-    <state width="1475" height="292" key="GridCell.Tab.0.left" timestamp="1587051684108">
+    <state width="1209" height="292" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1587052132343" />
+    <state width="1209" height="292" key="GridCell.Tab.0.left" timestamp="1587052132343">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1475" height="292" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1587051684108" />
-    <state width="1475" height="292" key="GridCell.Tab.0.right" timestamp="1587051684108">
+    <state width="1209" height="292" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1587052132343" />
+    <state width="1209" height="292" key="GridCell.Tab.0.right" timestamp="1587052132343">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1475" height="292" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1587051684108" />
+    <state width="1209" height="292" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1587052132343" />
     <state x="657" y="345" key="com.intellij.ide.util.TipDialog" timestamp="1586895599079">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
