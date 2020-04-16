@@ -3,95 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="d3cc9064-40ec-455c-a223-c3d7f1258b4c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/controller/BotProMin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/controller/BotProMin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/controller/BotProMinUpdate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/controller/BotProMinUpdate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Covid_statistics-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/adv.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ani.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/bl/FileWriterLogs.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/controller/Bot.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/controller/BotButtons.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/controller/BotProMin.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/controller/BotProMinUpdate.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/controller/BotUpdate.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/dao/Changer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/dao/HtmlReader.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/repo/Article.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/reklama.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/lib/animal-sniffer-annotations-1.18.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/lib/aopalliance-1.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/lib/aopalliance-repackaged-2.6.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/lib/checker-qual-2.8.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/lib/commons-codec-1.10.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/lib/commons-collections-3.2.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/lib/commons-io-2.6.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/lib/commons-lang3-3.4.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/lib/commons-logging-1.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/lib/cssparser-0.9.18.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/lib/error_prone_annotations-2.3.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/lib/failureaccess-1.0.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/lib/grizzly-framework-2.4.4.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/lib/grizzly-http-2.4.4.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/lib/grizzly-http-server-2.4.4.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/lib/guava-28.1-jre.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/lib/guice-4.2.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/lib/hk2-api-2.6.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/lib/hk2-locator-2.6.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/lib/hk2-utils-2.6.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/lib/htmlunit-2.19.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/lib/htmlunit-core-js-2.17.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/lib/httpclient-4.5.10.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/lib/httpcore-4.4.12.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/lib/httpmime-4.5.10.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/lib/j2objc-annotations-1.3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/lib/jackson-annotations-2.10.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/lib/jackson-core-2.10.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/lib/jackson-databind-2.10.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/lib/jackson-jaxrs-base-2.10.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/lib/jackson-jaxrs-json-provider-2.10.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/lib/jackson-module-jaxb-annotations-2.10.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/lib/jakarta.activation-1.2.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/lib/jakarta.activation-api-1.2.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/lib/jakarta.annotation-api-1.3.5.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/lib/jakarta.inject-2.6.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/lib/jakarta.validation-api-2.0.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/lib/jakarta.ws.rs-api-2.1.6.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/lib/jakarta.xml.bind-api-2.3.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/lib/javassist-3.22.0-CR2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/lib/javax.inject-1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/lib/jersey-client-2.29.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/lib/jersey-common-2.29.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/lib/jersey-container-grizzly2-http-2.29.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/lib/jersey-entity-filtering-2.29.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/lib/jersey-hk2-2.29.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/lib/jersey-media-jaxb-2.29.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/lib/jersey-media-json-jackson-2.29.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/lib/jersey-server-2.29.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/lib/jetty-io-9.2.13.v20150730.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/lib/jetty-util-9.2.13.v20150730.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/lib/json-20180813.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/lib/jsoup-1.11.3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/lib/jsr305-3.0.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/lib/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/lib/nekohtml-1.9.22.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/lib/osgi-resource-locator-1.0.3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/lib/sac-1.3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/lib/serializer-2.7.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/lib/slf4j-api-1.7.29.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/lib/telegrambots-4.7.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/lib/telegrambots-meta-4.7.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/lib/websocket-api-9.2.13.v20150730.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/lib/websocket-client-9.2.13.v20150730.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/lib/websocket-common-9.2.13.v20150730.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/lib/xalan-2.7.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/lib/xercesImpl-2.11.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/lib/xml-apis-1.4.01.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/controller/Bot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/controller/Bot.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -132,10 +44,10 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
+    <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Азат\IdeaProjects\hibernateORM\hibernateORM\hibernateORM\Covid_statistics\src\main\resources" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
+    <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Азат\IdeaProjects\hibernateORM\hibernateORM\hibernateORM\Covid_statistics\src\main\resources" />
     </key>
   </component>
@@ -173,7 +85,8 @@
       <workItem from="1586725403088" duration="11676000" />
       <workItem from="1586821784053" duration="2144000" />
       <workItem from="1586895593069" duration="9163000" />
-      <workItem from="1587046168076" duration="5581000" />
+      <workItem from="1587046168076" duration="7237000" />
+      <workItem from="1587055794969" duration="5487000" />
     </task>
     <servers />
   </component>
@@ -181,30 +94,38 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="569" y="233" key="#com.intellij.ide.util.MemberChooser" timestamp="1587047381506">
+    <state x="569" y="233" key="#com.intellij.ide.util.MemberChooser" timestamp="1587056089216">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="569" y="233" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1587047381506" />
-    <state width="1209" height="292" key="GridCell.Tab.0.bottom" timestamp="1587052132343">
+    <state x="569" y="233" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1587056089216" />
+    <state x="819" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1587055893391">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1209" height="292" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1587052132343" />
-    <state width="1209" height="292" key="GridCell.Tab.0.center" timestamp="1587052132343">
+    <state x="819" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1587055893391" />
+    <state x="1022" y="268" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1587066368775">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1209" height="292" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1587052132343" />
-    <state width="1209" height="292" key="GridCell.Tab.0.left" timestamp="1587052132343">
+    <state x="1022" y="268" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1587066368775" />
+    <state width="1737" height="292" key="GridCell.Tab.0.bottom" timestamp="1587067703632">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1209" height="292" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1587052132343" />
-    <state width="1209" height="292" key="GridCell.Tab.0.right" timestamp="1587052132343">
+    <state width="1737" height="292" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1587067703632" />
+    <state width="1737" height="292" key="GridCell.Tab.0.center" timestamp="1587067703632">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1209" height="292" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1587052132343" />
-    <state x="657" y="345" key="com.intellij.ide.util.TipDialog" timestamp="1586895599079">
+    <state width="1737" height="292" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1587067703632" />
+    <state width="1737" height="292" key="GridCell.Tab.0.left" timestamp="1587067703632">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="657" y="345" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1586895599079" />
+    <state width="1737" height="292" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1587067703632" />
+    <state width="1737" height="292" key="GridCell.Tab.0.right" timestamp="1587067703632">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1737" height="292" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1587067703632" />
+    <state x="657" y="345" key="com.intellij.ide.util.TipDialog" timestamp="1587055806392">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="657" y="345" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1587055806392" />
     <state x="563" y="220" key="new project wizard" timestamp="1587040608735">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
