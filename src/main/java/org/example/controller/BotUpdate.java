@@ -17,6 +17,7 @@ public class BotUpdate {
         Bot bot = new Bot();
         if(update.hasCallbackQuery()){
 
+
             CallbackQuery callbackQuery = update.getCallbackQuery();
             String data = callbackQuery.getData();
             User user = callbackQuery.getFrom();
