@@ -20,7 +20,7 @@ public class BotUpdate {
             CallbackQuery callbackQuery = update.getCallbackQuery();
             String data = callbackQuery.getData();
             User user = callbackQuery.getFrom();
-            FileWriterLogs.writeToLog(user.getId()+ " "+ data + " " + LocalDateTime.now().toString() + "\n" + "  ");
+            FileWriterLogs.writeToLog(user.getId()+ " "+ data + " " + LocalDateTime.now().toString() + "\n");
 
             Message message1 = callbackQuery.getMessage();
             switch (data) {
