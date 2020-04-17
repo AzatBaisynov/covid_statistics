@@ -42,6 +42,21 @@ public class Bot extends TelegramLongPollingBot {
         }
     }
 
+    public void sendMsgWithStatistic(Message message, String text) throws FileNotFoundException {
+        SendMessage sendMessage = new SendMessage();
+        sendMessage.enableMarkdown(true);
+        sendMessage.setChatId(message.getChatId().toString());
+        sendMessage.setText(text);
+        SendPhoto msg = new SendPhoto().setPhoto("Статистика", new FileInputStream(new File("classes/17.04.20.jpg")));
+        msg.setChatId(message.getChatId().toString());
+        try {
+            execute(msg);
+            execute(sendMessage);
+        } catch (TelegramApiException e) {
+            e.printStackTrace();
+        }
+    }
+
     public void sendMsgNoReplyNoButtonTop10(Message message, String text) throws FileNotFoundException {
         SendMessage sendMessage = new SendMessage();
         sendMessage.enableMarkdown(true);

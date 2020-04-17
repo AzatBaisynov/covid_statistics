@@ -35,7 +35,7 @@ public class BotUpdate {
                     bot.sendMsgNoReply(message1, "\u2063                                Меню                 \u2063");
                     break;
                 case "/kyrgyzstan" :
-                    bot.sendMsgWithAdv(message1, "Статистика по Кыргызстану:");
+                    bot.sendMsgWithStatistic(message1, "Статистика по Кыргызстану:");
                     bot.sendMsgNoReply(message1, HtmlReader.getCountryOfficialTable("Kyrgyzstan", "Asia").toString());
                     break;
                 case "/russia" :
