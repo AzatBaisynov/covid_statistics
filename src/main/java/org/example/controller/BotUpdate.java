@@ -68,7 +68,7 @@ public class BotUpdate {
                     update.getMessage().getText().contains("Menu") ||
                     update.getMessage().getText().contains("menu") ||
                     update.getMessage().getText().contains("/start")){
-                bot.sendMsgNoReply(update.getMessage(),"\u2063                                Меню                 \u2063");
+                bot.sendMsgNoReply(update.getMessage(),"▪ ▫▪ ▫ МЕНЮ ▪ ▫▪ ▫");
             }
         }
     }
