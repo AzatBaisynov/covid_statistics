@@ -1,5 +1,6 @@
 package org.example.dao;
 
+import com.vdurmont.emoji.EmojiParser;
 import org.example.repo.Article;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
@@ -9,7 +10,52 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
+
 public class HtmlReader {
+    public static String parsSm(String str){
+        switch (str){
+            case "USA":
+                String parsedSmile1 = EmojiParser.parseToUnicode(":us:");
+                return parsedSmile1;
+            case "Spain":
+                String parsedSmile2 = EmojiParser.parseToUnicode(":es:");
+                return parsedSmile2;
+            case "Italy":
+                String parsedSmile3 = EmojiParser.parseToUnicode(":it:");
+                return parsedSmile3;
+            case "France":
+                String parsedSmile4 = EmojiParser.parseToUnicode(":fr:");
+                return parsedSmile4;
+            case "Germany":
+                String parsedSmile5 = EmojiParser.parseToUnicode(":de:");
+                return parsedSmile5;
+            case "UK" :
+                String parsedSmile6 = EmojiParser.parseToUnicode(":gb:");
+                return parsedSmile6;
+            case "Turkey" :
+                String parsedSmile7 = EmojiParser.parseToUnicode(":tr:");
+                return parsedSmile7;
+            case "Iran" :
+                String parsedSmile8 = EmojiParser.parseToUnicode(":ir:");
+                return parsedSmile8;
+            case "Russia" :
+                String parsedSmile9 = EmojiParser.parseToUnicode(":ru:");
+                return parsedSmile9;
+            case "Brazil" :
+                String parsedSmile10 = EmojiParser.parseToUnicode(":br:");
+                return parsedSmile10;
+            case "Kyrgyzstan" :
+                String parsedSmile11 = EmojiParser.parseToUnicode(":kg:");
+                return parsedSmile11;
+            case "Kazakhstan" :
+                String parsedSmile12 = EmojiParser.parseToUnicode(":kz:");
+                return parsedSmile12;
+            case "Uzbekistan" :
+                String parsedSmile13 = EmojiParser.parseToUnicode(":uz:");
+                return parsedSmile13;
+        }
+        return "";
+    }
 
     public static List<Article> getOfficialTable() {
         List<Article> articles = new ArrayList<>();
@@ -19,19 +65,20 @@ public class HtmlReader {
 
 
         while (count <= 224) {
-            String a = doc.getElementsByTag("td").get(count + 1).text();
+            String name = doc.getElementsByTag("td").get(count).text();
+            String a = doc.getElementsByTag("td").get(count + 6).text();
             String b = checkForNull(doc.getElementsByTag("td").get(count + 2).text());
             String c = doc.getElementsByTag("td").get(count + 3).text();
             String d = checkForNull(doc.getElementsByTag("td").get(count + 4).text());
 
             articles.add(new Article(
-                    doc.getElementsByTag("td").get(count).text(),
+                    name + " " + parsSm(name),
                     doc.getElementsByTag("td").get(count + 1).text(),
-                    checkForNull(doc.getElementsByTag("td").get(count + 2).text()) + pAdd(a, b),
-                    doc.getElementsByTag("td").get(count + 3).text(),
-                    checkForNull(doc.getElementsByTag("td").get(count + 4).text()) + "  " + pAdd(c, d),
+                    checkForNull(doc.getElementsByTag("td").get(count + 2).text()),
+                    doc.getElementsByTag("td").get(count + 3).text() + "  " + pAdd(c, d),
+                    checkForNull(doc.getElementsByTag("td").get(count + 4).text()),
                     doc.getElementsByTag("td").get(count + 5).text(),
-                    doc.getElementsByTag("td").get(count + 6).text()));
+                    doc.getElementsByTag("td").get(count + 6).text()+ "  " + pAdd(a, b)));
             count += 13;
         }
         return articles;
@@ -39,18 +86,19 @@ public class HtmlReader {
 
     public static Article getCountryOfficialTable(String country, String region) {
         List<String> list = Changer.getOneCountryList(country, region);
-        String a = list.get(1);
+        String name = list.get(0);
+        String a = list.get(6);
         String b = checkForNull(list.get(2));
         String c = list.get(3);
         String d = checkForNull(list.get(4));
         Article article = new Article(
-                worldTranslator(list.get(0)),
+                worldTranslator(list.get(0)) + " " + parsSm(name),
                 list.get(1),
-                checkForNull(list.get(2)) + pAdd(a, b),
-                list.get(3),
-                checkForNull(list.get(4)) + "  " + pAdd(c, d),
+                checkForNull(list.get(2)),
+                list.get(3) + "   " + pAdd(c, d),
+                checkForNull(list.get(4)),
                 list.get(5),
-                list.get(6));
+                list.get(6) + pAdd(a, b));
         return article;
     }
 

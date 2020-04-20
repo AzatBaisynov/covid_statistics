@@ -7,7 +7,7 @@ import org.telegram.telegrambots.meta.api.methods.send.SendPhoto;
 import org.telegram.telegrambots.meta.api.objects.Message;
 import org.telegram.telegrambots.meta.api.objects.Update;
 import org.telegram.telegrambots.meta.exceptions.TelegramApiException;
-import org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException;
+
 
 //import java.util.List;
 
@@ -26,7 +26,7 @@ public class Bot extends TelegramLongPollingBot {
         sendMessage.enableMarkdown(true);
         sendMessage.setChatId(message.getChatId().toString());
         sendMessage.setText(text);
-        SendPhoto msg = new SendPhoto().setPhoto("место для Вашей рекламы!", new FileInputStream(new File("classes/rec.jpg")));
+        SendPhoto msg = new SendPhoto().setPhoto("место для Вашей рекламы!", new FileInputStream(new File("src/main/resources/rec.jpg")));
         msg.setChatId(message.getChatId().toString());
         SendMessage sendMessage1 = new SendMessage();
         sendMessage1.setText("Только грамотные треки в стиле кайфа " + parsedSmile+ parsedSmile
@@ -47,7 +47,7 @@ public class Bot extends TelegramLongPollingBot {
         sendMessage.enableMarkdown(true);
         sendMessage.setChatId(message.getChatId().toString());
         sendMessage.setText(text);
-        SendPhoto msg = new SendPhoto().setPhoto("Статистика", new FileInputStream(new File("classes/kyrg.jpg")));
+        SendPhoto msg = new SendPhoto().setPhoto("Статистика", new FileInputStream(new File("src/main/resources/kyrg.jpg")));
         msg.setChatId(message.getChatId().toString());
         try {
             execute(msg);
@@ -57,7 +57,7 @@ public class Bot extends TelegramLongPollingBot {
         }
     }
 
-    public void sendMsgNoReplyNoButtonTop10(Message message, String text) throws FileNotFoundException {
+    public void sendMsgNoReplyNoButtonTop10(Message message, String text){
         SendMessage sendMessage = new SendMessage();
         sendMessage.enableMarkdown(true);
         sendMessage.setChatId(message.getChatId().toString());
