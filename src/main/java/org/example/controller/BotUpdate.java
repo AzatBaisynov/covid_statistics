@@ -32,7 +32,7 @@ public class BotUpdate {
                     for(int i = 0; i < 10; i++) {
                         bot.sendMsgNoReplyNoButtonTop10(message1,list.get(i).toString());
                     }
-                    bot.sendMsgNoReply(message1, "\u2063                                Меню                 \u2063");
+                    bot.sendMsgNoReply(message1, "▪ ▫▪ ▫ МЕНЮ ▪ ▫▪ ▫");
                     break;
                 case "/kyrgyzstan" :
                     bot.sendMsgWithStatistic(message1, "Статистика по Кыргызстану:");
@@ -58,6 +58,9 @@ public class BotUpdate {
                     bot.sendMsgWithAdv(message1, "Статистика по Турции:");
                     bot.sendMsgNoReply(message1, HtmlReader.getCountryOfficialTable("Turkey", "Asia").toString());
                     break;
+                case "/world" :
+                    bot.sendMsgWithAdv(message1, "Статистика по миру:");
+                    bot.sendMsgNoReply(message1, HtmlReader.getCountryOfficialTable("World","All").toString());
             }
         } else {
             if (update.getMessage().getText().contains("Меню") ||

@@ -11,20 +11,23 @@ public class BotButtons {
     static void setButtons(SendMessage sendMessage){
         //button
         InlineKeyboardButton topButton = new InlineKeyboardButton();
-        topButton.setText("            Топ 10            ");
+        topButton.setText(" Топ 10 ");
         topButton.setCallbackData("/top10");
         InlineKeyboardButton kyrButton = new InlineKeyboardButton();
-        kyrButton.setText("       Кыргызстан        ");
+        kyrButton.setText(" Кыргызстан ");
         kyrButton.setCallbackData("/kyrgyzstan");
         InlineKeyboardButton russButton = new InlineKeyboardButton();
-        russButton.setText("  Россия  ");
+        russButton.setText(" Россия ");
         russButton.setCallbackData("/russia");
         InlineKeyboardButton kazButton = new InlineKeyboardButton();
-        kazButton.setText("  Казахстан  ");
+        kazButton.setText(" Казахстан ");
         kazButton.setCallbackData("/kazakhstan");
         InlineKeyboardButton uzbButton = new InlineKeyboardButton();
-        uzbButton.setText("  Узбекистан  ");
+        uzbButton.setText(" Узбекистан ");
         uzbButton.setCallbackData("/uzbekistan");
+        InlineKeyboardButton worButton = new InlineKeyboardButton();
+        worButton.setText(" Во всем мире ");
+        worButton.setCallbackData("/world");
 //        InlineKeyboardButton chiButton = new InlineKeyboardButton();
 //        chiButton.setText("  Китай  ");
 //        chiButton.setCallbackData("/china");
@@ -41,7 +44,8 @@ public class BotButtons {
         List<InlineKeyboardButton> row2 = new LinkedList<>();
         row2.add(kazButton);
         row2.add(uzbButton);
-//        List<InlineKeyboardButton> row3 = new LinkedList<>();
+        List<InlineKeyboardButton> row3 = new LinkedList<>();
+        row3.add(worButton);
 //        row3.add(chiButton);
 //        row3.add(turButton);
         //ROW COLLECTION
@@ -49,7 +53,7 @@ public class BotButtons {
         rowCollection.add(row);
         rowCollection.add(row1);
         rowCollection.add(row2);
-//        rowCollection.add(row3);
+        rowCollection.add(row3);
         //keyboard
         InlineKeyboardMarkup inlineKeyboardMarkup = new InlineKeyboardMarkup();
         inlineKeyboardMarkup.setKeyboard(rowCollection);
