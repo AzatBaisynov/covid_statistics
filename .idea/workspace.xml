@@ -4,13 +4,6 @@
     <list default="true" id="d3cc9064-40ec-455c-a223-c3d7f1258b4c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/controller/Bot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/controller/Bot.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/controller/BotUpdate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/controller/BotUpdate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/dao/HtmlReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/dao/HtmlReader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Covid_statistics-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/Covid_statistics-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/controller/Bot.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/controller/Bot.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/controller/BotUpdate.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/controller/BotUpdate.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/dao/HtmlReader.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/dao/HtmlReader.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,7 +103,12 @@
       <workItem from="1587055794969" duration="6331000" />
       <workItem from="1587103440529" duration="7913000" />
       <workItem from="1587329256942" duration="2795000" />
-      <workItem from="1587380438947" duration="21490000" />
+      <workItem from="1587380438947" duration="22056000" />
+      <workItem from="1587466052458" duration="1224000" />
+      <workItem from="1587553312989" duration="267000" />
+      <workItem from="1587652391316" duration="38000" />
+      <workItem from="1587904067212" duration="2684000" />
+      <workItem from="1588015981268" duration="335000" />
     </task>
     <servers />
   </component>
@@ -130,30 +128,30 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1022" y="268" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1587066368775" />
-    <state width="1877" height="246" key="GridCell.Tab.0.bottom" timestamp="1587416533780">
+    <state width="1199" height="246" key="GridCell.Tab.0.bottom" timestamp="1587416573081">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="246" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1587416533780" />
-    <state width="1877" height="246" key="GridCell.Tab.0.center" timestamp="1587416533780">
+    <state width="1199" height="246" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1587416573081" />
+    <state width="1199" height="246" key="GridCell.Tab.0.center" timestamp="1587416573081">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="246" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1587416533780" />
-    <state width="1877" height="246" key="GridCell.Tab.0.left" timestamp="1587416533780">
+    <state width="1199" height="246" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1587416573081" />
+    <state width="1199" height="246" key="GridCell.Tab.0.left" timestamp="1587416573081">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="246" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1587416533780" />
-    <state width="1877" height="246" key="GridCell.Tab.0.right" timestamp="1587416533780">
+    <state width="1199" height="246" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1587416573081" />
+    <state width="1199" height="246" key="GridCell.Tab.0.right" timestamp="1587416573081">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="246" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1587416533780" />
-    <state x="657" y="345" key="com.intellij.ide.util.TipDialog" timestamp="1587103436814">
+    <state width="1199" height="246" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1587416573081" />
+    <state x="657" y="345" key="com.intellij.ide.util.TipDialog" timestamp="1587553362497">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="657" y="345" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1587103436814" />
-    <state x="563" y="220" key="new project wizard" timestamp="1587103614088">
+    <state x="657" y="345" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1587553362497" />
+    <state x="31" y="168" width="1116" height="620" key="new project wizard" timestamp="1587911899101">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="563" y="220" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1587103614088" />
+    <state x="31" y="168" width="1116" height="620" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1587911899101" />
     <state x="1034" y="180" width="670" height="676" key="search.everywhere.popup" timestamp="1587404538380">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

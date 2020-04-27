@@ -26,16 +26,11 @@ public class Bot extends TelegramLongPollingBot {
         sendMessage.enableMarkdown(true);
         sendMessage.setChatId(message.getChatId().toString());
         sendMessage.setText(text);
-        SendPhoto msg = new SendPhoto().setPhoto("место для Вашей рекламы!", new FileInputStream(new File("classes/rec.jpg")));
+        SendPhoto msg = new SendPhoto().setPhoto("место для Вашей рекламы!", new FileInputStream(new File("classes/adv.jpg")));
+        msg.setCaption("По всем вопросам и предложениям\n@BotMakingKg");
         msg.setChatId(message.getChatId().toString());
-        SendMessage sendMessage1 = new SendMessage();
-        sendMessage1.setText("Только грамотные треки в стиле кайфа " + parsedSmile+ parsedSmile
-                + parsedSmile+ parsedSmile+ " @musicaproanima");
-        sendMessage1.setChatId(message.getChatId().toString());
-        sendMessage1.enableMarkdown(true);
         try {
             execute(msg);
-            execute(sendMessage1);
             execute(sendMessage);
         } catch (TelegramApiException e) {
             e.printStackTrace();
